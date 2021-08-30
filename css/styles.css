@@ -30,6 +30,10 @@ h1,h2,h3{
     font-family: 'Merriweather', serif;
     font-weight: 700;
 }
+h2{
+    padding-bottom: 1em;
+}
+
 
 .container{
     width: 90%;
@@ -59,8 +63,7 @@ nav{
 }
 
 
-.fas,
-.far{
+.fa-circle{
     font-size: 1.5em;
     text-align: center;
 }
@@ -70,7 +73,9 @@ nav{
 }
 
 
-.industrial-title{
+.industrial-title,
+.fresh-header,
+.showcase-title{
     font-size: 1.9rem;
 }
 /* Hero section */
@@ -87,7 +92,8 @@ p{
 }
 
 .hero-button,
-.industrial-btn{
+.industrial-btn,
+.showcase-btn{
     border: 1px solid #faa307;
     padding: 1em 1.7em;
     font-size: 1.2em;
@@ -101,13 +107,52 @@ p{
     margin-bottom: 3em;
 }
 
-/* .spring-section{
-    margin-bottom: 4em;
-} */
+/* fresh product section */
 
-/* .nav-link + .nav-link{
-    margin-right: 1em;
-} */
+
+.product{
+    margin-bottom: 1.8em;
+}
+
+.circles{
+    margin: 1.5em 0;
+   
+}
+
+.circles .fas,
+.circles .far{
+    padding-right: 0.5em;
+}
+
+.fresh-review{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fresh-rating{
+    color: #f1b67d;
+}
+
+.fa-star{
+    color: #eb8b31;
+}
+
+.ratings{
+    color: #a7a2a1;
+}
+
+.showcase-info{
+    margin-top: 2.5em;
+
+}
+.showcase-btn{
+    margin-top: 2.5em;
+}
+
+
+
+
 
 /* font-family: 'Merriweather', serif;
 font-family: 'Ubuntu', sans-serif; */
