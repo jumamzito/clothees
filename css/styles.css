@@ -34,6 +34,11 @@ h1,h2,h3{
 .container{
     width: 90%;
     margin: 0 auto;
+
+}
+section{
+    margin-bottom: 3em;
+
 }
 nav{
     display: flex;
@@ -59,7 +64,7 @@ nav{
 
 .hero-img,
 .explore-img{
-    width: 95%;
+    /* width: 95%; */
     margin-bottom: 3em;
 }
 
@@ -67,7 +72,9 @@ p{
     font-size: 1.4rem;
     line-height: 1.7;
 }
-.hero-button{
+
+.hero-button,
+.industrial-btn{
     border: 1px solid #faa307;
     padding: 1em 1.7em;
     font-size: 1.2em;
