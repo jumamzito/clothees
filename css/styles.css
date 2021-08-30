@@ -158,6 +158,58 @@ p{
     font-size: 1.5rem;
 }
 
+.footer-ul{
+    list-style: none;
+}
+
+.footer-ul li{
+    font-size: 1.3rem;
+}
+
+input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #493f35;
+    width: 100%;
+}
+
+input::placeholder{
+    padding-bottom: 1.2em;
+
+    
+}
+
+.news-sub{
+    position: relative;
+}
+
+
+.subscribe{
+    border: none;
+    background-color: transparent;
+    color: #cf7339;
+    position: absolute;
+    right: 1%;
+
+}
+.payments{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-google-pay,
+.fa-cc-mastercard,
+.fa-paypal,
+.fa-cc-visa{
+    font-size: 3rem;
+    flex: 1;
+}
+
+.fa-google-pay{
+    font-size: 3.5rem;
+}
+
+
 
 
 /* font-family: 'Merriweather', serif;
