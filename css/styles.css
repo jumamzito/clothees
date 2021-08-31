@@ -47,24 +47,28 @@ section{
 nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    min-height: 5em;
+    align-content: center;
+    margin-top: 1em;
+
 }
 .top-nav{
     list-style: none;
     display: flex;
-    width: 15em;
-    justify-content: flex-end;
-    /* border: 1px solid red; */
+
 }
 
 .logo{
     font-size: 1.8rem;
+    align-self: center;
+    /* margin-top: 0.6em; */
 }
 
 
-.fa-circle{
-    font-size: 1.5em;
+.fa-circle,
+.fa-search,
+.fa-user,
+.fa-shopping-bag{
+    font-size: 1.4em;
     text-align: center;
 }
 
@@ -171,6 +175,7 @@ input{
     background-color: transparent;
     border-bottom: 2px solid #493f35;
     width: 100%;
+    margin:2em 0;
 }
 
 input::placeholder{
@@ -190,11 +195,15 @@ input::placeholder{
     color: #cf7339;
     position: absolute;
     right: 1%;
-
+    top: 40%;
+}
+.policy{
+    font-size: 1.4rem;
 }
 .payments{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
 }
 
 .fa-google-pay,
