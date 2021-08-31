@@ -38,6 +38,7 @@ h2{
 .container{
     width: 90%;
     margin: 0 auto;
+    max-width: 1440px;
 
 }
 section{
@@ -212,8 +213,46 @@ input{
     font-size: 3.5rem;
 }
 
+@media (min-width:500px) {
+    .rows{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .hero{
+        margin-bottom: 15em;
+    }
+    .spring-section,
+    .explore-section{
+        flex: 1;
+    }
+    .spring-section{
+        margin-right: 3em;
+    }
 
+    .hero-img{
+        width: 80%;
+    }
 
-
-/* font-family: 'Merriweather', serif;
-font-family: 'Ubuntu', sans-serif; */
+    .explore-section{
+        position: relative;
+        
+    }
+    .explore-img{
+        position: absolute;
+        top: 0;
+        bottom: 35%;
+        width: 100%;
+        border-radius: 5em 5em 0 0;
+    }
+    .explore-p{
+        position: absolute;
+        top: 75%;
+        width: 85%;
+    }
+    .hero-button{
+        position: absolute;
+        bottom: 1%;
+    }
+    
+}
