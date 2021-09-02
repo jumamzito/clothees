@@ -88,7 +88,6 @@ nav{
 
 .hero-img,
 .explore-img{
-    /* width: 95%; */
     margin-bottom: 3em;
 }
 
@@ -236,16 +235,17 @@ input{
         
     }
     .hero{
-        margin-bottom: 6em;
+        margin-bottom: 13em;
     }
     .spring-section,
     .explore-section{
         flex: 1;
-        /* border: 1px solid red; */
+        /* border: 1px solid blue; */
     }
     .spring-section{
-        margin-right: 3em;
-    }
+        /* margin-right: 3em; */
+        /* flex-grow: 1; */
+        flex-basis: 40%}
 
     .hero-img{
         max-width: 80%;
@@ -253,20 +253,24 @@ input{
 
     .explore-section{
         position: relative;
+        flex-basis: 40%;
         
     }
 
     .explore-area{
-        position: absolute;
-        /* top: 15%; */
-        width: 95%;
+        /* position: absolute; */
+        bottom:1%;
+        width: 70%;
         /* border: 1px solid green; */
+        margin-left: 20%;
     }
     .explore-img{
         /* width: 70%; */
         border-radius: 5em 5em 0 0;
         margin-bottom: 1em;
-        max-width: 75%;
+        width: 100%;
+        object-fit: cover;
+        /* min-height: 65vh; */
     }
     .explore-p{
         width: 100%;
@@ -280,16 +284,16 @@ input{
     .indurstial-info{
         position: relative;
         top: 50%;
-        flex-basis: 45%;
+        /* flex-basis: 45%; */
         align-self: center;
-        border: 1px solid green;
+        /* border: 1px solid green; */
     }
     .industrial-img{
-        flex-basis: 30%;
+        /* flex-basis: 30%; */
         padding-left: 2.5em;
         max-width: 40%;
-        
-
+        width: 100%;
+        object-fit: contain;
     }
 
     /* .industrial-img img{
@@ -306,4 +310,7 @@ input{
         object-fit: cover;
 
     }
+    /* .container{
+        border: 1px solid red;
+    } */
 }
